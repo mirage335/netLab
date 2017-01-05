@@ -1,0 +1,5 @@
+Experimenting with IPv6, attempting to simulate an intranet with prefix delegation. The goal is to create a realistic 'lab' to test pfSense configuration options, before applying to production networks.
+
+Have two pfSense routers - one generating a fd51:be27::1/32 LAN, the other connected to that as a WAN. Setting "Track Interface" on the second router's WAN interface does not assign any IPv6 address to that LAN, nor apparently, to any of its own DHCPv6 clients. Have tried a variety of settings, nothing seems to work.
+
+Can anyone please clarify what I might be doing wrong?
